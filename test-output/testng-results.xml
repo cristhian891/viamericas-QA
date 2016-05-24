@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9670" started-at="2016-05-23T22:06:53Z" finished-at="2016-05-23T22:07:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9670" started-at="2016-05-23T22:06:53Z" finished-at="2016-05-23T22:07:03Z">
+      <class name="com.talos.selenium.viamericasQA.TestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="setup" is-config="true" duration-ms="20467" started-at="2016-05-23T17:06:33Z" finished-at="2016-05-23T17:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CheckGetaQuote()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="CheckGetaQuote" duration-ms="3771" started-at="2016-05-23T17:06:53Z" finished-at="2016-05-23T17:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGetaQuote -->
+        <test-method status="PASS" signature="CheckHowitWork()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="CheckHowitWork" duration-ms="1306" started-at="2016-05-23T17:06:57Z" finished-at="2016-05-23T17:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHowitWork -->
+        <test-method status="PASS" signature="CheckLocation()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="CheckLocation" duration-ms="1277" started-at="2016-05-23T17:06:58Z" finished-at="2016-05-23T17:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLocation -->
+        <test-method status="PASS" signature="CheckLogin()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="CheckLogin" duration-ms="893" started-at="2016-05-23T17:06:59Z" finished-at="2016-05-23T17:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLogin -->
+        <test-method status="PASS" signature="CheckTransactionHistory()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="CheckTransactionHistory" duration-ms="2403" started-at="2016-05-23T17:07:00Z" finished-at="2016-05-23T17:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTransactionHistory -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.talos.selenium.viamericasQA.TestCases@548a9f61]" name="closing" is-config="true" duration-ms="161" started-at="2016-05-23T17:07:03Z" finished-at="2016-05-23T17:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- com.talos.selenium.viamericasQA.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

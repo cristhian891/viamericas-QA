@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.talos.selenium.viamericasQA.TestBankCash"/>
+      <class name="com.talos.selenium.viamericasQA.TestBankCreditCard"/>
+      <class name="com.talos.selenium.viamericasQA.TestCases"/>
+      <class name="com.talos.selenium.viamericasQA.TestPages"/>
+      <class name="com.talos.selenium.viamericasQA.TestSendMoney"/>
+      <class name="com.talos.selenium.viamericasQA.TestSigup"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.talos.selenium.viamericasQA.TestSendMoney">
+        <methods>
+          <include name="setup"/>
+          <include name="DestinationInfo"/>
+          <include name="aftertest"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestSendMoney -->
+      <class name="com.talos.selenium.viamericasQA.TestSigup">
+        <methods>
+          <include name="enternewuser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestSigup -->
+      <class name="com.talos.selenium.viamericasQA.TestBankCash">
+        <methods>
+          <include name="setup"/>
+          <include name="DestinationInfo"/>
+          <include name="aftertest"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestBankCash -->
+      <class name="com.talos.selenium.viamericasQA.TestCases">
+        <methods>
+          <include name="CheckLogin"/>
+          <include name="setup"/>
+          <include name="closing"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestCases -->
+      <class name="com.talos.selenium.viamericasQA.TestPages">
+        <methods>
+          <include name="closing"/>
+          <include name="checkcustomeragreement"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestPages -->
+      <class name="com.talos.selenium.viamericasQA.TestBankCreditCard">
+        <methods>
+          <include name="DestinationInfo"/>
+          <include name="closing"/>
+          <include name="aftertest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestBankCreditCard -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

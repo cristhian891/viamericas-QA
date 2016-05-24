@@ -1,0 +1,178 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 325.295 sec <<< FAILURE!
+DestinationInfo(com.talos.selenium.viamericasQA.TestBankCash)  Time elapsed: 37.614 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div/div[1]/div[2]/div/div/div/div[2]/div[2]/form/div[1]/div[2]/div/dropdown-viamericas/div/i"}
+Command duration or timeout: 30.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ede9086-24b9-3a4f-b8b9-0ebdb4f3794f
+*** Element info: {Using=xpath, value=html/body/div[1]/div/div[1]/div[2]/div/div/div/div[2]/div[2]/form/div[1]/div[2]/div/dropdown-viamericas/div/i}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.talos.selenium.objectpages.AmountInfo.enterSendAmountBankDeposit(AmountInfo.java:43)
+	at com.talos.selenium.viamericasQA.TestBankCash.DestinationInfo(TestBankCash.java:34)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div/div[1]/div[2]/div/div/div/div[2]/div[2]/form/div[1]/div[2]/div/dropdown-viamericas/div/i"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+
+DestinationInfo(com.talos.selenium.viamericasQA.TestBankCreditCard)  Time elapsed: 30.076 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.06 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ede9086-24b9-3a4f-b8b9-0ebdb4f3794f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.talos.selenium.objectpages.Login.LogintoViamericas(Login.java:24)
+	at com.talos.selenium.viamericasQA.TestBankCreditCard.DestinationInfo(TestBankCreditCard.java:31)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+
+CheckLogin(com.talos.selenium.viamericasQA.TestCases)  Time elapsed: 30.068 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.05 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ede9086-24b9-3a4f-b8b9-0ebdb4f3794f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.talos.selenium.objectpages.Login.LogintoViamericas(Login.java:24)
+	at com.talos.selenium.viamericasQA.TestCases.CheckLogin(TestCases.java:23)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+
+checkcustomeragreement(com.talos.selenium.viamericasQA.TestPages)  Time elapsed: 30.92 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.11 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ede9086-24b9-3a4f-b8b9-0ebdb4f3794f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.talos.selenium.objectpages.Login.LogintoViamericas(Login.java:24)
+	at com.talos.selenium.viamericasQA.TestPages.checkcustomeragreement(TestPages.java:23)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+
+DestinationInfo(com.talos.selenium.viamericasQA.TestSendMoney)  Time elapsed: 30.582 sec  <<< FAILURE!
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.03 seconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ede9086-24b9-3a4f-b8b9-0ebdb4f3794f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at com.talos.selenium.objectpages.Login.LogintoViamericas(Login.java:24)
+	at com.talos.selenium.viamericasQA.TestSendMoney.DestinationInfo(TestSendMoney.java:31)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10092)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)
+
+enternewuser(com.talos.selenium.viamericasQA.TestSigup)  Time elapsed: 30.107 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div/div[1]/div[2]/div/div/section[2]/div[5]/a[2]"}
+Command duration or timeout: 30.10 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0.1, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 5ede9086-24b9-3a4f-b8b9-0ebdb4f3794f
+*** Element info: {Using=xpath, value=html/body/div[1]/div/div[1]/div[2]/div/div/section[2]/div[5]/a[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.talos.selenium.objectpages.HomePage.gotoToSignup(HomePage.java:78)
+	at com.talos.selenium.viamericasQA.TestSigup.enternewuser(TestSigup.java:21)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"html/body/div[1]/div/div[1]/div[2]/div/div/section[2]/div[5]/a[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'Juans-MacBook-Pro-2.local', ip: '172.20.99.254', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.5', java.version: '1.8.0_45'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/gh/pjbwtf491md1kvh8s4qnch9r0000gp/T/anonymous2968868860537295095webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+

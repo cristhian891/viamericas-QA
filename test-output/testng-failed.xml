@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.talos.selenium.viamericasQA.TestPages">
+        <methods>
+          <include name="checkCarrersPage"/>
+          <include name="checkNewsPage"/>
+          <include name="closing"/>
+          <include name="checkcustomeragreement"/>
+          <include name="checkprivacy"/>
+          <include name="setup"/>
+          <include name="checkAgentsPage"/>
+        </methods>
+      </class> <!-- com.talos.selenium.viamericasQA.TestPages -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
